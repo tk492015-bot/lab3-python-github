@@ -28,12 +28,12 @@ def percentage(a, b):
         return "Percentage cannot be found with respect to zero"
     return (a / b) * 100
 
+print("==========Simple calculator============")
 
 while True:
-    text = str(input("If you want to leave enter Exit =  "))
+    text = str(input("Type 'Exit' to quit,or press enter to continue =  "))
     if (text == "Exit" or text == "EXIT" or text == "exit"):
         break
-    print("You entered", text)
 
     a = int(input("Enter first number = "))
     b = int(input("Enter second number = "))
